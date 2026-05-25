@@ -1,0 +1,8 @@
+{
+  "name": "Remix: PatiNetwork_Uygulama",
+  "description": "Akıllı Sokak Hayvanları Besleme ve İzleme Sistemi. IoT verilerini görselleştirir, durum takibi yapar ve topluluk desteğini organize eder.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

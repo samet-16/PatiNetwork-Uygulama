@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🐾 PatiNetwork - Mobil Uygulama Arayüzü
 
-# Run and deploy your AI Studio app
+PatiNetwork, evcil hayvanların beslenme süreçlerini optimize etmeyi ve uzaktan yönetmeyi sağlayan IoT tabanlı akıllı bir besleme sistemidir. Bu depo, projenin kullanıcı arayüzü (UI) ve yapay zeka entegreli mobil bileşenlerini içermektedir.
 
-This contains everything you need to run your app locally.
+## 🚀 Proje Hakkında
 
-View your app in AI Studio: https://ai.studio/apps/21240770-0d76-462f-af57-cf4def27906a
+Bu uygulama, donanım tarafındaki akıllı mama kaplarıyla haberleşerek evcil hayvan sahiplerine detaylı kontrol ve veri takibi sunmak üzere kavramsal olarak modellenmiş ve geliştirilmektedir. Sistemin temel amacı, IoT ve yapay zeka teknolojilerini kullanarak evcil hayvan bakımını daha modern ve sistematik bir hale getirmektir.
 
-## Run Locally
+## ✨ Temel Özellikler
 
-**Prerequisites:**  Node.js
+* **Kullanıcı Dostu Arayüz:** Temiz ve anlaşılır tasarım ile kolay kullanım.
+* **Yapay Zeka Destekli Modüller:** Google AI Studio entegrasyonu ile akıllı bildirimler ve durum analizleri.
+* **Durum Takibi (Planlanan):** Mama ve su seviyelerinin anlık olarak harita ve göstergeler üzerinden takip edilmesi.
+* **IoT Haberleşme Altyapısı:** Akıllı cihazlarla veri alışverişine uygun modüler mimari.
 
+## 🛠️ Kurulum ve Çalıştırma
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Projeyi kendi bilgisayarınızda yerel olarak çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
+
+**Ön Koşullar:** Bilgisayarınızda [Node.js](https://nodejs.org/) yüklü olmalıdır.
+
+1. **Projeyi Klonlayın:**
+   ```bash
+   git clone [https://github.com/samet-16/PatiNetwork-Uygulama.git](https://github.com/samet-16/PatiNetwork-Uygulama.git)
+   cd PatiNetwork-Uygulama
